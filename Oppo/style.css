@@ -1,0 +1,844 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: aliceblue;
+}
+
+a
+{
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 2px 6%;
+    position: sticky;
+    z-index: 100;
+    box-shadow: 0 0px 5px rgb(0, 0, 0.1);
+}
+
+.logo img{
+    width: 30%;
+    margin-right: 15px;
+    display: block;
+} 
+
+.navbar-center ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar-center ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 1px 8px;
+    padding-right: 5px;
+    position: relative;
+}
+
+
+.navbar-center ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -26px;
+    background: #045be6;
+   transition: width 0.5s;
+}
+
+.navbar-center ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+.navbar-center ul li a img
+{
+    width: 30px;
+}
+
+.navbar-profile-img
+{
+    width: 28px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+.online
+{
+    position: relative;
+}
+
+.online::after
+{
+    content: '';
+    width: 7px;
+    height: 5px;
+    border: 2px solid white;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+    background: #41db51;
+}
+
+.search-box
+{
+    background:#f0f2f5;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+   
+}
+
+.navbar-left
+{
+    display: flex;
+    align-items: center;
+}
+
+.search-box img
+{
+    width: 14px;
+ 
+}
+
+.search-box input
+  {
+    width: 100%;
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    border: 0;
+ }
+.container
+{
+    position: relative;
+  
+}
+.image
+ {
+    width: 100%;
+    height: 100%;
+ }
+ .text
+ {
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    font-size: 50px;
+ }
+ .Expert
+ {
+    font-size: 25px;
+ }
+ .Expert1
+ {
+    font-size: 25px;
+    margin-top: 85%;
+    
+ }
+ .Expert2
+ {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px ;
+    color: #fff;
+    font-size: 20px;
+    
+ }
+ .Expert3
+ {
+    display: inline-block;
+    border: 1px solid grey;
+    /* background-color: white; */
+    border-radius: 50px;
+    padding: 15px ;
+    font-size: 20px;
+ }
+ 
+.b_img
+{
+    /* position: relative; */
+    margin-top: 4px;
+    width: 100%;
+}
+.text_second_Image
+{
+    position: absolute;
+    color: #f0f2f5;
+    top: 55%;
+    left: 11%;
+    font-size: 50px;
+
+}
+.tp2{
+    left: 5%;
+    font-size: 25px; 
+}
+.tp3
+{
+    font-size: 20px;
+    margin-top: 75%;
+}
+
+.tp4
+{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 15px ;
+   color: black;
+    font-size: 20px; 
+}
+
+
+.text4
+{
+    font-size: 30px;
+    margin-top: 7%;
+    margin-left: 9%;
+}
+.contain
+{
+    position: relative;
+}
+.topimg
+{
+    position: absolute;
+    width: 95%;  
+    margin-left: 3%;
+    justify-content: center;
+    padding: 2px 5% 2px 5%;
+}
+.toptext
+{  position: absolute;
+    color: #000;
+    margin-left: 106px;
+    margin-top: 3%;
+    font-size: 36px;
+}
+/* .subbgcolor
+{
+    background-color: lightgreen; */
+
+
+.Camera
+{
+    position: absolute;
+    margin-left: 11%; 
+     margin-top: 18%;
+     background-color: #41db5088;
+     padding: 5px 50px 6px 4px;
+     border-radius: 5px;
+    color: black;
+    
+}
+.link
+{
+    display: inline-block;
+    padding: 15px ;
+    color: #000;
+    font-size: 15px;
+}
+.link1
+{
+    display: inline-block;
+    
+    color: #000;
+    font-size: 15px;
+}
+.oppo_purple
+{
+    position: absolute;
+    margin-left: 8%;
+    background-color: lightgray;
+    margin-top:550px;
+}
+.purple{
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+.para{
+    position: absolute;
+    margin-top: -77%; 
+     margin-left: 10%;
+     font-size: 35px;
+}
+.para1{
+    position: absolute;
+    margin-top: 1%; 
+     margin-left: 4%;
+}
+.para2{
+    /* position: absolute; */
+    margin-top: 17%;
+    margin-left: 10%;
+
+}
+
+.btn1{
+    /* position: absolute; */
+    display: inline-block;
+    border-radius: 50px;
+    padding: 15px ;
+   color: black;
+    font-size: 15px; 
+    margin-top: 1%;
+    margin-left: 9%;
+}
+.btn2{
+    position: absolute;
+    display: inline-block;
+    padding: 5px ;
+   color: black;
+    font-size: 15px; 
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.reno10bgcolor 
+{
+ position: absolute;
+    margin-left: 11%; 
+    margin-top: -25%;
+    padding: 5px 50px 6px 4px;
+    border-radius: 5px;
+    color: black; 
+    background-color: lightgoldenrodyellow;
+    padding-right: 50%;
+    padding-bottom: -3%;
+}
+
+/* .oppoa78{
+     position: absolute;
+    display:flex;
+    margin-top: 395px;
+    margin-left: 47%;
+    
+    background-color: red;
+    padding: 150px;
+    padding-left: 150px;
+    padding-top: 145px;
+    padding-right: 150px;
+    padding-bottom: 40px;  */
+.oppoa78{
+   
+        position:absolute;
+    margin-left: 38%;
+    background-color: lightgray;
+    margin-top:550px; 
+    }
+.oppoa78 img{
+   
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+.text2{
+    position:absolute;
+    margin-top: -370px; 
+    margin-left:25%;
+    font-size: 32px;
+    
+}
+.text3{
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: -90px; 
+    margin-left:2%;
+    margin-bottom: 2%;
+    padding-right: 295px;
+    padding-bottom: 55px;
+    padding-left: 18px;
+    border-radius: 5px;
+}
+.btn3{
+    position: absolute;
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+.btn4{
+    position: absolute;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 79px;
+}
+
+.oppof21{
+    position: absolute; 
+    margin-top: 980px;  
+    margin-left: 8%;
+   background-color: lightgray;
+}
+.oppof21 img{
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+.text44{
+    position: absolute;
+    margin-top: -77%; 
+    margin-left: 18%;
+    font-size: 35px;
+     
+}
+.text5{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding-right: 280px;
+    margin-left: 8%;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 15px;
+}
+.text5{
+   
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 20px;
+}
+.btn5{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.text6{
+    position: absolute;
+    margin-top: -77%; 
+    margin-left: 14%;
+    font-size: 40px;
+}
+.text7{
+    position: absolute;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding-right: 175px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-top: -14%;
+    margin-left: 3%;
+}
+
+/*------opppo products------*/
+.oppo_products{
+    margin-top: 980px; 
+    position:absolute;
+    margin-left: 38%;
+    background-color: lightgray;
+ 
+}
+.oppo_products img{
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+
+/*--------airpods------*/
+.airpods{
+    position: absolute; 
+    margin-top: 84%;  
+    margin-left: 8%;
+   background-color: lightgray;
+}
+.airpods img{
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+
+.text8{
+    position: absolute;
+    margin-top: -76%;
+    margin-left: 8%;
+    font-size: 30px;
+}
+.text9{
+    position: absolute;
+    margin-top: -17%;
+    margin-left: 4%;
+    background-color: antiquewhite;
+    padding-right:235px ;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+/* .btn6{position: absolute;
+    margin-top: 6%;
+}
+.btn7{
+    position: absolute;
+    margin-left: 46%;
+    margin-bottom: -16%;
+} */
+
+/*---------airpods ecno air-----*/
+
+.ecnoair{
+    /* margin-top: 98%; 
+    position:absolute;
+    margin-left: 47%;
+    background-color: lightgray; */
+    margin-top: 84%; 
+    margin-left: 38%;
+    background-color: lightgray;
+    position:absolute;
+}
+.ecnoair img{
+   
+    max-width: 50%;
+    margin-left: 30%;margin-top: 15%;
+    padding-bottom: 20%; 
+}
+.echno_air_txt{
+    position: absolute;
+    margin-top: -76%;
+    margin-left: 8%;
+    font-size: 30px;
+}
+.Earbuds{
+    position: absolute;
+    margin-top: -17%;
+    margin-left: 4%;
+    background-color: antiquewhite;
+    padding-right:150px ;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+.offers{
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+
+.images4{
+    margin-top: 120%;
+   
+}
+.welcome{
+    max-width: 35%;
+    padding-left: 4%;
+    margin-top: 2%;
+}
+
+.oppomem{
+ 
+    max-width: 32%; 
+    padding-left: 1%;
+    margin-top: -15%;
+}
+
+.exchange {
+   
+    max-width: 32%; 
+   margin-top: -125%; 
+    /* margin-left: %; */
+    padding-left: 1%;
+   
+}
+
+
+.welcome-gift-bg{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-left: 4%;
+    padding-right: 11%;
+}
+.welcome-gift{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+.oppo-mem-txt{
+    position: absolute;
+    margin-left: 36%;
+    background-color: antiquewhite;
+    padding-right: 14%;
+    padding-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 9px; 
+    border-radius: 5px;
+}
+.oppo{
+    margin-top: 3%; 
+}
+.Exchangep{
+    position: absolute;
+    margin-left: 69%;
+    background-color: antiquewhite;
+    padding-right: 11%;
+    padding-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 9px; 
+    border-radius: 5px;
+}
+.Exchange1{
+    margin-top: 3%; 
+}
+
+
+
+.OPPO-Events{
+    position: absolute;
+    margin-top: 10%;
+     margin-left: 8%;
+     font-size: 35px;
+}
+
+
+.flippy-bird{
+    max-width: 30%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.google-one{
+    max-width: 30%;
+    margin-left: 1%;
+}
+
+.oppo-ambassdors{
+    max-width: 30%;
+    margin-left: 1%;
+}
+.uefa{
+    max-width: 30%;
+    margin-left: 1%;
+}
+.explore{
+    /* position: absolute; */
+    background-color:#E0E8EA;
+}
+/* .oppo-bg{
+  
+    background-color:#E0E8EA;
+} */
+
+.explore-OPPO{
+    margin-top: 9%;
+    margin-left: 8%;
+    font-size: 35px;
+    
+}
+
+.About-OPPO{
+    max-width: 30%; 
+    margin-top: 9%;
+}
+
+.Imagy-Technology{
+    max-width: 30%; 
+    margin-top: 9%;
+}
+
+.oppo-5g{
+    max-width: 30%;
+    margin-top: 9%; 
+}
+.OPPO-Newsroom{
+    max-width: 30%; 
+    margin-top: 9%;
+}
+.vooc{
+    max-width: 30%;
+    margin-top: 9%;
+}
+
+.oppoc {
+    position: absolute;
+    margin-top: 9%;
+    font-size: 35px;
+    margin-left: 8%;
+}
+.oppod{
+    position: absolute;
+    margin-top: 12%;
+    font-size: 55px;
+    margin-left: 8%;
+}
+
+
+.unboxing{
+    margin-top: 22%;
+   width: 40%;
+   height: 10%;
+}
+
+ .mom{
+   display: block;
+    max-width: 26%;
+    max-height:26%;
+    margin-top: -52%;
+    margin-left: 41%;
+}  
+
+.capture{
+    position: absolute;
+    max-width: 65%;
+    max-height:41%;
+    margin-top: -19%;
+    margin-left: 68%; 
+}
+.c4{
+    display: block;
+    position: absolute;
+    max-width: 56%;
+    max-height:70%;
+    margin-top: 1%;
+    margin-left: 41%; 
+}
+.snap{
+    display: block;
+    position: absolute;
+    max-width: 56%;
+    max-height:70%;
+    margin-top: 1%;
+    margin-left: 98%; 
+}
+
+.support{
+    color:black;
+    margin-top: 42%;
+    font-size: 36px;
+    margin-left: 18%;
+}
+.support1{
+    margin-left: 48%;
+    font-size: 26px;
+    margin-top: -2%;
+}
+
+.support2{
+    margin-left: 48%;
+    font-size: 26px;
+    margin-top: 2%;
+}
+.support3{
+    margin-left: 48%;
+    font-size: 26px;
+    margin-top: 2%;
+}
+.support4{
+    margin-left: 48%;
+    font-size: 26px;
+    margin-top: 2%;
+}
+.support5{
+    margin-left: 48%;
+    font-size: 26px;
+    margin-top: 2%;
+}
+
+.support6{
+    background-color: #E0E8EA;
+}
+
+/* .bg-color{
+   
+    background-color: black;
+} */
+.black{
+    color: #5e5e5f;
+   font-size: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.black1{
+    padding-bottom: 15px;
+    color: #5e5e5f;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.smart{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 30px;
+    color: #5e5e5f;
+}
+.smart1{
+    margin-left: 10%;
+    font-size: 25px;
+    margin-top: 1%;
+    color: #626464;
+}
+.smart2{
+    margin-left: 30%;
+    font-size: 25px;
+    margin-top: -22%;
+    color: #646464;
+}
+
+.sof{
+    margin-left: 48%;
+    font-size: 25px;
+    margin-top: -17%;
+    color: #646464;
+}
+.sup
+    {
+        margin-left: 63%;
+        font-size: 25px;
+        margin-top: -6%;
+        color: #646464;
+}
+.seven{
+    margin-left: 82%;
+        font-size: 25px;
+        margin-top: -15%;
+        color: #646464;
+}
+.robot-tt{
+   margin-top: 15%; 
+   margin-left: 10%;
+}
+.robot-p{
+    font-size: 25px;
+    margin-top: -3%; 
+    margin-left: 15%;
+}
+
+.robot{
+    position: fixed;
+    margin-top: -3%; 
+    margin-left: 95%;
+}
+
+
+
+
+
+
+
+
